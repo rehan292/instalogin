@@ -1,0 +1,84 @@
+body {
+  background-color: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-box {
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 40px 40px 30px;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Billabong", cursive;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  background-color: #0095f6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.password-field {
+  position: relative;
+}
+
+.toggle-btn {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  color: #0095f6;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 15px 0;
+  color: #8e8e8e;
+  font-size: 13px;
+}
+
+.fb-login,
+.forgot {
+  display: block;
+  color: #385185;
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.signup-box {
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  text-align: center;
+  padding: 20px;
+}
